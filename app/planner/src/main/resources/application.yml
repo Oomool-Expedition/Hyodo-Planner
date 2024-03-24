@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oomool
+    username: root
+    password: 1111
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+#  flyway:
+#    enabled: true
+#    baseline-on-migrate: true
+#    out-of-order: true
+#    encoding: UTF-8
+#    url: jdbc:mysql://localhost:3306
+#    user: root
+#    password: 1111
+#    locations: classpath:/db/migration, classpath:/db/seed
+#    schemas: oomool
