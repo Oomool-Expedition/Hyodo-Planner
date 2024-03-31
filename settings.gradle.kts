@@ -9,5 +9,6 @@ pluginManagement {
 include(
     "domain",
     "app:core",
-    "app:planner"
+    "app:planner",
+    "app:user"
 )
